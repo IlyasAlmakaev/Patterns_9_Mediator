@@ -13,6 +13,10 @@
 		286D74D01F31ACCE0011B8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286D74CE1F31ACCE0011B8F1 /* Main.storyboard */; };
 		286D74D21F31ACCE0011B8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286D74D11F31ACCE0011B8F1 /* Assets.xcassets */; };
 		286D74D51F31ACCE0011B8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286D74D31F31ACCE0011B8F1 /* LaunchScreen.storyboard */; };
+		286D74DE1F31ADF70011B8F1 /* SmartHousePart.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D74DD1F31ADF70011B8F1 /* SmartHousePart.m */; };
+		286D74E11F31AFB00011B8F1 /* CentralProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D74E01F31AFB00011B8F1 /* CentralProcessor.m */; };
+		286D74E41F31B2D00011B8F1 /* Thermometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D74E31F31B2D00011B8F1 /* Thermometer.m */; };
+		286D74E71F31B3060011B8F1 /* ConditioningSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D74E61F31B3060011B8F1 /* ConditioningSystem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		286D74D11F31ACCE0011B8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286D74D41F31ACCE0011B8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		286D74D61F31ACCE0011B8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286D74DC1F31ADF70011B8F1 /* SmartHousePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartHousePart.h; sourceTree = "<group>"; };
+		286D74DD1F31ADF70011B8F1 /* SmartHousePart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartHousePart.m; sourceTree = "<group>"; };
+		286D74DF1F31AFB00011B8F1 /* CentralProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralProcessor.h; sourceTree = "<group>"; };
+		286D74E01F31AFB00011B8F1 /* CentralProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralProcessor.m; sourceTree = "<group>"; };
+		286D74E21F31B2D00011B8F1 /* Thermometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thermometer.h; sourceTree = "<group>"; };
+		286D74E31F31B2D00011B8F1 /* Thermometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thermometer.m; sourceTree = "<group>"; };
+		286D74E51F31B3060011B8F1 /* ConditioningSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditioningSystem.h; sourceTree = "<group>"; };
+		286D74E61F31B3060011B8F1 /* ConditioningSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditioningSystem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				286D74C81F31ACCE0011B8F1 /* AppDelegate.h */,
 				286D74C91F31ACCE0011B8F1 /* AppDelegate.m */,
+				286D74DC1F31ADF70011B8F1 /* SmartHousePart.h */,
+				286D74DD1F31ADF70011B8F1 /* SmartHousePart.m */,
+				286D74DF1F31AFB00011B8F1 /* CentralProcessor.h */,
+				286D74E01F31AFB00011B8F1 /* CentralProcessor.m */,
+				286D74E21F31B2D00011B8F1 /* Thermometer.h */,
+				286D74E31F31B2D00011B8F1 /* Thermometer.m */,
+				286D74E51F31B3060011B8F1 /* ConditioningSystem.h */,
+				286D74E61F31B3060011B8F1 /* ConditioningSystem.m */,
 				286D74CB1F31ACCE0011B8F1 /* ViewController.h */,
 				286D74CC1F31ACCE0011B8F1 /* ViewController.m */,
 				286D74CE1F31ACCE0011B8F1 /* Main.storyboard */,
@@ -151,9 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286D74E71F31B3060011B8F1 /* ConditioningSystem.m in Sources */,
 				286D74CD1F31ACCE0011B8F1 /* ViewController.m in Sources */,
+				286D74DE1F31ADF70011B8F1 /* SmartHousePart.m in Sources */,
 				286D74CA1F31ACCE0011B8F1 /* AppDelegate.m in Sources */,
 				286D74C71F31ACCE0011B8F1 /* main.m in Sources */,
+				286D74E41F31B2D00011B8F1 /* Thermometer.m in Sources */,
+				286D74E11F31AFB00011B8F1 /* CentralProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
